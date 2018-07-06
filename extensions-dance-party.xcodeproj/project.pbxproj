@@ -12,6 +12,8 @@
 		6E02B3EE20EEE047001AB5D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E02B3EC20EEE047001AB5D8 /* Main.storyboard */; };
 		6E02B3F020EEE049001AB5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E02B3EF20EEE049001AB5D8 /* Assets.xcassets */; };
 		6E02B3F320EEE049001AB5D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E02B3F120EEE049001AB5D8 /* LaunchScreen.storyboard */; };
+		6E02B3FB20EEE2E2001AB5D8 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02B3FA20EEE2E2001AB5D8 /* UIButtonExt.swift */; };
+		6E1F5A2020EFC0520037AFAC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F5A1F20EFC0520037AFAC /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6E02B3EF20EEE049001AB5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E02B3F220EEE049001AB5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E02B3F420EEE049001AB5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E02B3FA20EEE2E2001AB5D8 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		6E1F5A1F20EFC0520037AFAC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6E02B3EF20EEE049001AB5D8 /* Assets.xcassets */,
 				6E02B3F120EEE049001AB5D8 /* LaunchScreen.storyboard */,
 				6E02B3F420EEE049001AB5D8 /* Info.plist */,
+				6E02B3FA20EEE2E2001AB5D8 /* UIButtonExt.swift */,
+				6E1F5A1F20EFC0520037AFAC /* Helpers.swift */,
 			);
 			path = "extensions-dance-party";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E02B3EB20EEE047001AB5D8 /* ViewController.swift in Sources */,
+				6E02B3FB20EEE2E2001AB5D8 /* UIButtonExt.swift in Sources */,
 				6E02B3E920EEE047001AB5D8 /* AppDelegate.swift in Sources */,
+				6E1F5A2020EFC0520037AFAC /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
